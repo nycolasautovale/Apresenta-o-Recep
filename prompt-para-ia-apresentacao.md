@@ -1,193 +1,208 @@
-# Prompt para gerar a apresentação (cole numa IA de slides)
+# Prompt para o Gamma — Apresentação de Treinamento da Recepção
 
-> **Como usar:** copie TODO o conteúdo da seção "PROMPT" abaixo e cole numa IA boa de
-> apresentação (ex.: **Gamma**, **Canva Magic Design**, **Beautiful.ai**, **Tome**, ou
-> **ChatGPT/Claude** pedindo para gerar os slides). Depois, encaixe os seus prints de tela
-> em cada slide indicado (há um marcador `[IMAGEM: ...]` em cada um).
+> **Como usar no Gamma (gamma.app):**
+> 1. Crie uma nova apresentação → opção **"Colar texto"** (Paste in text).
+> 2. Cole TODO o conteúdo da seção **"PROMPT"** abaixo.
+> 3. Escolha um tema **roxo/moderno** quando o Gamma pedir.
+> 4. Depois de gerado, em cada slide há a indicação do arquivo de imagem
+>    (ex.: `Foto 1.png`). Arraste o print correspondente da pasta `Imagens/`
+>    para o slide.
+>
+> As imagens estão em: **Imagens/** (neste mesmo repositório).
 
 ---
 
 ## PROMPT (copie daqui para baixo)
 
-Você é um designer especialista em apresentações corporativas de treinamento. Crie uma apresentação profissional, limpa e visualmente moderna para **treinar novos funcionários de recepção** de uma **associação de proteção veicular** (empresa: **AutoVale Prevenções**) a usar os sistemas no dia a dia.
+Crie uma apresentação profissional de **treinamento** para novos funcionários de **recepção** da **AutoVale Prevenções** (associação de proteção veicular). Objetivo: ensinar o passo a passo do uso dos sistemas no dia a dia. Público: recepcionistas iniciantes. Duração: ~15 minutos, formato online. Tom: didático, direto e acolhedor, com frases curtas.
 
-### Contexto e objetivo
-- Público: recepcionistas recém-contratados, sem familiaridade com os sistemas.
-- Objetivo: ensinar o passo a passo das tarefas do dia a dia (consultar associado, vender, vistoriar, rotinas de apoio).
-- Duração da apresentação: ~15 minutos, formato online (tela compartilhada).
-- Tom: didático, direto, acolhedor. Frases curtas. Nada de "juridiquês".
+Diretrizes de design: tema moderno e limpo, cor principal roxo (#4A2F8D / #6C5CE7), apoio em branco e cinza-claro; use verde, azul, laranja e vermelho só para selos de status. Máximo de ~5 tópicos por slide, bastante espaço em branco, ícones simples. Cada slide de tela tem espaço para uma imagem (indicada ao final do slide).
 
-### Identidade visual
-- Cores da marca: **roxo** (#4A2F8D e #6C5CE7) como cor principal, com apoio de branco e cinza-claro. Use **verde** (#27AE60), **azul** (#2980B9), **laranja** (#E67E22) e **vermelho** (#C0392B) apenas para destacar status/alertas.
-- Estilo: moderno, flat, bastante respiro (espaço em branco), ícones simples, tipografia sem serifa.
-- Cada slide deve ter espaço reservado para **uma captura de tela** do sistema (marcado como `[IMAGEM]`), com uma legenda curta.
-- Inclua, quando fizer sentido, pequenos selos de status coloridos (Ativo = verde, Novo = azul, Suspenso = laranja, Cancelado = vermelho).
+---
 
-### Estrutura obrigatória (um bloco = um ou mais slides)
+**Slide 1 — Capa**
+Título: Guia de Treinamento da Recepção
+Subtítulo: AutoVale Prevenções — Uso dos sistemas no dia a dia
 
-**SLIDE 1 — Capa**
-- Título: "Guia de Treinamento da Recepção"
-- Subtítulo: "AutoVale Prevenções — Uso dos sistemas no dia a dia"
+**Slide 2 — Os 3 sistemas (visão geral)**
+Mensagem: São 3 sistemas, mas o login é único (CPF só números + senha).
+- Sistema de Gestão (aeasy.autovaleprevencoes.org): consultar associado, ficha, boletos, acompanhar vistoria.
+- Portal do Consultor (consultor.autovaleprevencoes.org): fazer as vendas / novas adesões.
+- App AutoVale Consultor (celular): fazer a vistoria que ativa a proteção.
+Fluxo: Vender → associado fica "Novo" → Vistoriar → setor valida → "Ativo" → Atender no dia a dia.
 
-**SLIDE 2 — Os 3 sistemas (visão geral)**
-- Mensagem central: "São 3 sistemas, mas o login é único (CPF só números + senha)."
-- Três cartões:
-  1. **Sistema de Gestão** (aeasy.autovaleprevencoes.org) → consultar associado, ficha, boletos, acompanhar vistoria.
-  2. **Portal do Consultor** (consultor.autovaleprevencoes.org) → fazer as vendas / novas adesões.
-  3. **App AutoVale Consultor** (celular) → fazer a vistoria que ativa a proteção.
-- Rodapé com o fluxo: Vender → associado fica "Novo" → Vistoriar → setor valida → "Ativo" → Atender no dia a dia.
-
-**SLIDE 3 — Login no Sistema de Gestão**
+**Slide 3 — Login no Sistema de Gestão**
 - Endereço: aeasy.autovaleprevencoes.org/conta/login
-- Passos: 1) acessar; 2) no campo LOGIN digitar o CPF (só números); 3) Continuar; 4) senha (padrão no 1º acesso: Autovale123#).
-- Dica: trocar a senha no primeiro acesso (ícone de engrenagem → Alterar Senha).
-- [IMAGEM: tela de login "Faça Logon"]
+- No campo LOGIN, digite o CPF (apenas números).
+- Clique em Continuar e informe a senha (padrão no 1º acesso: Autovale123#).
+[Imagem: "Foto 1.png"]
 
-**SLIDE 4 — Onde trabalhar: Gestão → Associados**
-- Caminho: menu "Gestão" (no topo) → "Associados".
-- Observação: os cards do Dashboard e as demais opções NÃO são usados pela recepção.
-- [IMAGEM: menu Gestão → Associados]
+**Slide 4 — Tela inicial e troca de senha**
+- Após o login abre o Dashboard.
+- Para trocar a senha: ícone de engrenagem (canto superior direito) → Alterar Senha.
+[Imagem: "Foto 2 (tela inicial do sistema).png" e "Foto 3 (alterar senha).png"]
 
-**SLIDE 5 — Encontrar um associado (busca pela lupa)**
-- A lupa (🔍) aparece em qualquer tela.
+**Slide 5 — Onde trabalhar: Gestão → Associados**
+- No topo, clique no menu "Gestão".
+- Depois clique em "Associados".
+- Os cards do Dashboard e as demais opções não são usados pela recepção.
+[Imagem: "Foto 4 (mostrando opção de gestão).png" e "Foto 5 (mostrando a opção de Associados).png"]
+
+**Slide 6 — Tela de Associados e filtros**
+- Barra de pesquisa rápida (Nome, Placa ou CPF/CNPJ) + botão Pesquisar.
+- Botão "+ Adicionar" (nova adesão) e "Mais Filtros" (busca detalhada).
+[Imagem: "Foto 6 (mostrando a pagina de associados - Filtros).png"]
+
+**Slide 7 — Busca rápida pela lupa**
+- A lupa aparece em qualquer tela do sistema.
 - A recepção usa só a aba "Associado".
-- Pode buscar por: Nome, CPF, Placa, Chassi, Renavam, Telefone, CEP.
-- Regra de ouro: CPF e Placa sempre SÓ com números/letras, sem pontos ou traços.
-- [IMAGEM: modal de busca da lupa]
+- Pode buscar por Nome, CPF, Placa, Chassi, Renavam, Telefone, CEP.
+- Regra: CPF e Placa sempre só com números/letras, sem pontos ou traços.
+[Imagem: "Foto 7 (mostrando a lupa).png" e "Foto 8 (mostrando na lupa as opções de pesquisa de associado).png"]
 
-**SLIDE 6 — Entender a coluna "Situação" (slide-chave!)**
-- Quatro status, em selos coloridos:
-  - 🟢 **Ativo** — proteção funcionando, pode ser acionada.
-  - 🔵 **Novo** — cadastrado, mas a vistoria ainda não foi aprovada → ainda SEM proteção.
-  - 🟠 **Suspenso** — atraso de pagamento (ou boleto não compensado) → sem proteção no período.
-  - 🔴 **Cancelado** — cadastro cancelado hoje (pode nunca ter sido ativo).
-- Alerta: "Sempre confira a Situação ANTES de informar o associado."
-- Nota: para reativar um Suspenso → regularizar pagamento + vídeo de revistoria.
-- [IMAGEM: tabela de resultados com a coluna Situação]
+**Slide 8 — Entender a coluna "Situação" (slide-chave!)**
+Quatro status (use selos coloridos):
+- Ativo (verde): proteção funcionando, pode ser acionada.
+- Novo (azul): cadastrado, mas a vistoria ainda não foi aprovada → ainda SEM proteção.
+- Suspenso (laranja): atraso de pagamento (ou boleto não compensado) → sem proteção no período.
+- Cancelado (vermelho): cadastro cancelado hoje (pode nunca ter sido ativo).
+Alerta: Sempre confira a Situação ANTES de informar o associado.
+Nota: para reativar um Suspenso → regularizar pagamento + vídeo de revistoria.
+[Imagem: "Foto 9 (mostrando o resultado da busca de associado).png"]
 
-**SLIDE 7 — A ficha do associado ("Histórico do Associado")**
+**Slide 9 — A ficha do associado ("Histórico do Associado")**
 - Mostra Dados Pessoais, Endereço e Contato (cada um com botão Editar).
 - Abas usadas pela recepção: Dados Gerais, Documentos, Opcionais, Boletos, Vistoria.
-- [IMAGEM: página Histórico do Associado]
+[Imagem: "Foto 10 (mostrando a pagina de um associado).png"]
 
-**SLIDE 8 — Resetar a senha do associado**
+**Slide 10 — Editar cadastro e resetar a senha do associado**
 - Dados Pessoais → Editar Dados → aba "Alterar Senha".
 - Padrão de acesso do associado: usuário = CPF e senha = CPF (só números).
-- [IMAGEM: modal "Alterar Dados do Cliente"]
+[Imagem: "Foto 11 (mostrando a opção de editar algo do cadastro do associado).png"]
 
-**SLIDE 9 — Atualizar endereço/telefone: a regra do "Padrão (Sim/Não)" (alerta!)**
-- Ao adicionar um novo, ele entra como "Não"; o antigo fica como "Sim".
-- É preciso clicar no "Não" do novo para virar "Sim" (o antigo vira "Não" sozinho).
-- ⚠️ Se não marcar como Padrão: Sim, a mudança NÃO vale. Erro comum!
-- [IMAGEM: aba Endereço com coluna Padrão Sim/Não]
+**Slide 11 — Endereço/telefone: a regra do "Padrão (Sim/Não)" (alerta!)**
+- Ao adicionar um novo, ele entra como "Não"; o antigo fica "Sim".
+- Clique no "Não" do novo para virar "Sim" (o antigo vira "Não" sozinho).
+- ⚠️ Se não marcar como "Sim", a mudança NÃO vale. Erro comum!
+[Imagem: "Foto 12 (mostrando a opção de endereço que precisa marcar Sim para ativar).png"]
 
-**SLIDE 10 — Boletos (2ª via e PIX)**
-- Aba "Boletos": lista boletos (vencimento, valor, situação Pago/Aguardando).
-- Duas ações principais: 🖨️ Impressora (gera boleto para imprimir) e 🔳 QR Code (copia o PIX).
-- [IMAGEM: tabela de boletos]
+**Slide 12 — As abas da ficha (Documentos, Opcionais, Boletos)**
+- Documentos: anexar/visualizar RG, CNH, CRLV, termo de adesão.
+- Opcionais: ver os cadastrados (para adicionar, encaminhar ao suporte).
+- Boletos: emitir boleto e copiar PIX.
+[Imagem: "Foto 13 (mostrando as opções na pagina do associado - Boletos, Documentos, opcionais).png"]
 
-**SLIDE 11 — Vistoria no Gestão (acompanhar)**
-- Aba "Vistoria": situação (Aprovada/A realizar), tipo (Nova Adesão/Revistoria).
-- Ações: seta amarela (ver fotos/vídeo), Liberar Auto Vistoria (associado faz), Liberar Vistoria Consultor (outro consultor faz).
-- [IMAGEM: aba Vistoria]
+**Slide 13 — Boletos (2ª via e PIX)**
+- Lista boletos (vencimento, valor, situação Pago/Aguardando).
+- Impressora: gera o boleto para imprimir.
+- QR Code: copia o código PIX para o associado pagar.
+[Imagem: "Foto 14 (mostrando a parte dos boletos).png"]
 
-**SLIDE 12 — A VENDA: começa em OUTRO sistema (Portal do Consultor)** (slide de transição, destaque forte)
-- Aviso grande: "A venda NÃO é feita no sistema de gestão. Use o Portal do Consultor: consultor.autovaleprevencoes.org"
+**Slide 14 — Vistoria no Gestão (acompanhar)**
+- Situação (Aprovada / A realizar), tipo (Nova Adesão / Revistoria).
+- Seta amarela: ver fotos/vídeo. Liberar Auto Vistoria: o associado faz. Liberar Vistoria Consultor: outro consultor faz.
+[Imagem: "Foto 15 (mostrando a parte de vistoria).png"]
+
+**Slide 15 — A VENDA começa em OUTRO sistema (destaque forte)**
+- A venda NÃO é feita no sistema de gestão.
+- Use o Portal do Consultor: consultor.autovaleprevencoes.org
 - Login igual (CPF só números + senha); há o campo "TIPO LOGIN = Consultor".
-- [IMAGEM: login do Portal do Consultor]
+[Imagem: "Foto 16 (mostrando a tela da pagina de login de venda).png"]
 
-**SLIDE 13 — Iniciar a cotação**
-- Menu "Associados" → "Cotações" → botão "+ Adicionar".
-- (A recepção usa só Cotações e Vendas desse menu.)
-- [IMAGEM: tela Cotações]
+**Slide 16 — Home do Portal do Consultor**
+- Após o login abre a Home (ranking, bônus, saldo).
+- A recepção usa o menu lateral esquerdo (principalmente "Associados").
+[Imagem: "Foto 17 (mostrando a pagina de venda logado).png"]
 
-**SLIDE 14 — Preencher dados do veículo e do associado**
-- Com placa: digitar a placa → o sistema puxa os dados.
-- ⚠️ Conferir sempre com o CRLV (nem sempre vem 100% correto).
+**Slide 17 — Menu Associados → Cotações / Vendas**
+- A recepção usa só duas opções: Cotações (iniciar a venda) e Vendas (consultar vendas feitas).
+- As vendas também podem ser consultadas pelo sistema de Gestão.
+[Imagem: "Foto 18 (mostrando as opções que é usado no dia a dia da venda).png"]
+
+**Slide 18 — Iniciar a cotação**
+- Em Associados → Cotações, clique em "+ Adicionar".
+[Imagem: "Foto 19 (pagina de cotações).png"]
+
+**Slide 19 — Preencher dados do veículo e do associado**
+- Com placa: digite a placa → o sistema puxa os dados. ⚠️ Conferir sempre com o CRLV (nem sempre vem 100% certo).
 - Zero km: deixar a placa em branco, preencher manual e marcar "Zero KM" no Ano Modelo.
-- Preencher os campos obrigatórios (marcados com *).
+- Preencher os campos obrigatórios (*).
 - 🐞 Dica: se o campo "Adesão" vier vazio, trocar o modelo e voltar ao correto para recalcular.
-- [IMAGEM: formulário "Pesquise pela Placa" + Dados do Veículo]
+[Imagem: "Foto 20 (depois que clica para iniciar uma cotação).png"]
 
-**SLIDE 15 — Escolher o plano e aplicar desconto**
+**Slide 20 — Escolher o plano e aplicar desconto**
 - Conforme a categoria: 1 plano ou até 3 (Básico, VIP, TOP).
 - Descontos: Adesão 10% ou 20%; Mensalidade de 2% a 15% (depende da categoria).
-- Botão "Compare" → link com os planos lado a lado (compartilhar ou gerar PDF).
-- Botão "Imprimir" → PDF só do plano escolhido.
-- [IMAGEM: tela de plano/desconto + comparativo de planos]
+- Botão "Compartilhar" (WhatsApp), "Compare" e "Imprimir".
+[Imagem: "Foto 21 (pagina para selecionar o plano, aplicar descontos e compartilhar com o associado).png"]
 
-**SLIDE 16 — Fechar ou salvar a cotação**
-- "Continuar para Venda" → fecha agora (telas finais são intuitivas, basta ler e preencher).
-- "Salvar" → fica em Associados → Cotações para retomar depois (editar/WhatsApp/imprimir).
-- [IMAGEM: botões Salvar / Continuar para Venda]
+**Slide 21 — Apresentar os planos ao cliente**
+- Compare: link com todos os planos da categoria lado a lado (compartilhar ou gerar PDF).
+- Imprimir: PDF só do plano selecionado (proposta de adesão).
+[Imagem: "Foto 22 (função compare da parte da venda).png" e "Foto 23 (função imprimir da cotação).png"]
 
-**SLIDE 17 — Depois da venda: falta a vistoria! (slide-chave)**
-- Vendeu → associado fica "Novo" → SEM proteção ainda.
+**Slide 22 — Fechar ou salvar a cotação**
+- "Continuar para Venda": fecha agora (as telas finais são intuitivas, basta ler e preencher).
+- "Salvar": fica em Associados → Cotações para retomar depois (editar / WhatsApp / imprimir).
+[Imagem: "Foto 24 (mostrando botao para dar prosseguimento com a venda e assim finaliza-la).png" e "Foto 25 (mostrando a Cotação criada para caso precise, fechar futuramente).png"]
+
+**Slide 23 — Depois da venda: falta a vistoria! (slide-chave)**
+- Vendeu → associado fica "Novo" → ainda SEM proteção.
 - Só a vistoria validada deixa o associado "Ativo".
-- [IMAGEM: opcional — selo "Novo"]
 
-**SLIDE 18 — Vistoria pelo App AutoVale Consultor**
+**Slide 24 — Vistoria pelo App AutoVale Consultor**
 - Login único (mesmo CPF + senha).
 - Toque em "Vistoria" → aparecem os associados pendentes.
 - Passo a passo guiado: foto com a CNH → fotos/vídeos do veículo → assinatura no app.
 - Ao finalizar, fica pendente de validação pelo setor.
-- [IMAGEM: opcional — tela do app]
 
-**SLIDE 19 — Validação e "arquivos pendentes"**
-- ✅ Aprovada → associado vira "Ativo" (proteção ativa).
-- ❌ Reprovada → o setor avisa o erro; no app aparece "arquivos pendentes".
+**Slide 25 — Validação e "arquivos pendentes"**
+- Aprovada → associado vira "Ativo" (proteção ativa).
+- Reprovada → o setor avisa o erro; no app aparece "arquivos pendentes".
 - Para resolver: abrir, ver a placa, refazer a foto/vídeo e aguardar nova validação.
 
-**SLIDE 20 — Rotinas de apoio (resumo rápido)**
-- Tabela: Resetar senha, atualizar cadastro, endereço/telefone (Padrão Sim/Não), anexar documento, 2ª via de boleto/PIX.
-- O que NÃO é da recepção: adicionar opcional → encaminhar ao Suporte ao Consultor / Suporte ao Associado.
-
-**SLIDE 21 — Erros mais comuns (evite!)**
+**Slide 26 — Erros mais comuns (evite!)**
 1. Esquecer de marcar o novo endereço/telefone como "Padrão: Sim".
 2. Dizer que a proteção está ativa sem conferir a Situação.
 3. Achar que a venda já ativa o cliente — falta a vistoria validada.
 
-**SLIDE 22 — Checklist "sei fazer sozinho?"**
+**Slide 27 — Checklist "sei fazer sozinho?"**
 - Login nos 3 sistemas; achar associado e ler a situação; diferenciar Ativo/Novo/Suspenso/Cancelado; fazer cotação e venda; vistoria pelo app e resolver pendências; 2ª via/PIX; atualizar cadastro e resetar senha; saber o que encaminhar.
 
-**SLIDE 23 — Encerramento**
+**Slide 28 — Encerramento**
 - Recapitular o fluxo: Login → Consultar → Vender → Vistoriar → Atender.
-- "Onde pedir ajuda" (deixar espaço para o nome do responsável/suporte interno).
+- Onde pedir ajuda (deixe espaço para o nome do responsável/suporte interno).
 - Agradecimento + espaço para perguntas.
-
-### Formato de saída
-- Gere os slides com títulos, bullets curtos e os marcadores [IMAGEM] onde devo inserir os prints.
-- Use ícones e os selos de status coloridos.
-- Mantenha no máximo ~5 bullets por slide. Priorize clareza visual.
 
 ## FIM DO PROMPT
 
 ---
 
-## Dicas ao usar o prompt
+## Mapa de imagens × slides (para encaixar os prints no Gamma)
 
-- **Gamma (gamma.app)** é provavelmente a melhor opção para transformar isso em slides bonitos automaticamente — cole o prompt e deixe ele gerar.
-- Depois de gerado, **arraste seus prints de tela** nos locais marcados com `[IMAGEM]`.
-- Se a ferramenta pedir, diga que quer **tema roxo/moderno corporativo**.
-- Peça variações se o primeiro resultado não agradar (ex.: "deixe mais visual, menos texto").
+| Slide | Arquivo(s) em `Imagens/` |
+|-------|--------------------------|
+| 3 | Foto 1 |
+| 4 | Foto 2 + Foto 3 |
+| 5 | Foto 4 + Foto 5 |
+| 6 | Foto 6 |
+| 7 | Foto 7 + Foto 8 |
+| 8 | Foto 9 |
+| 9 | Foto 10 |
+| 10 | Foto 11 |
+| 11 | Foto 12 |
+| 12 | Foto 13 |
+| 13 | Foto 14 |
+| 14 | Foto 15 |
+| 15 | Foto 16 |
+| 16 | Foto 17 |
+| 17 | Foto 18 |
+| 18 | Foto 19 |
+| 19 | Foto 20 |
+| 20 | Foto 21 |
+| 21 | Foto 22 + Foto 23 |
+| 22 | Foto 24 + Foto 25 |
+| 23–28 | (sem print — slides de conceito/encerramento) |
 
-## Mapa de quais prints vão em quais slides
-
-| Slide | Print (tela) |
-|-------|--------------|
-| 3 | Login do Gestão |
-| 4 | Menu Gestão → Associados |
-| 5 | Modal de busca (lupa) |
-| 6 | Tabela de resultados (coluna Situação) |
-| 7 | Ficha "Histórico do Associado" |
-| 8 | Modal "Alterar Dados do Cliente" |
-| 9 | Aba Endereço (Padrão Sim/Não) |
-| 10 | Tabela de Boletos |
-| 11 | Aba Vistoria |
-| 12 | Login do Portal do Consultor |
-| 13 | Tela Cotações |
-| 14 | Formulário Pesquise pela Placa |
-| 15 | Plano/Desconto + Compare |
-| 16 | Botões Salvar / Continuar para Venda |
-| 17 | (opcional) selo "Novo" |
-| 18 | (opcional) tela do app de vistoria |
+> Observação: os slides 24 e 25 (vistoria pelo app) não têm print porque são do
+> aplicativo de celular. Se você capturar essas telas, dá para adicioná-las depois.
